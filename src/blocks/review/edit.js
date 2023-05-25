@@ -7,7 +7,7 @@ const { Fragment, useEffect } = wp.element;
 import './editor.scss';
 
 /**
- * Internal dependencies
+ * Internal dependencies nayem
  */
 import Inspector from './inspector';
 import { softMinifyCssStrings } from '../../helper/softminify';
