@@ -1,0 +1,109 @@
+/*!******************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/blocks/review/editor.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************/
+/*
+* Style Works for Editor Only
+*/
+.wp-block-create-block-boilerplate {
+  border: 1px dotted #010101;
+}
+
+.bdt-tab-panel .bdt-tab {
+  width: 100%;
+  background: #dbe8e8;
+  justify-content: center;
+  border-right: 2px solid #cfc2c2;
+  border-top: 2px solid #0000;
+}
+.bdt-tab-panel .bdt-tab:hover {
+  color: unset;
+}
+.bdt-tab-panel .bdt-tab.active-tab {
+  border-top: 2px solid #9e6e01;
+  background: #d4cece;
+}
+
+.wp-block-bdt-review .block-editor-block-list__layout {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: auto;
+  gap: 20px;
+  min-width: 1px;
+}
+
+.wp-block-bdt-review-item {
+  min-width: 1px;
+}
+
+.wp-block-bdt-review {
+  display: inherit;
+}
+
+.wp-block-bdt-review .block-editor-button-block-appender svg {
+  display: none;
+}
+
+.wp-block-bdt-review .block-editor-button-block-appender::before {
+  content: "Add Item";
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.bdt-review-icon {
+  color: unset;
+}
+
+.bdt-review-icon .react-rater-star.is-active,
+.bdt-review-icon .react-rater-star.is-active-half::before {
+  font-size: 14px;
+  color: #ff9a00;
+}
+
+.bdt-res-rangle-control .components-base-control .components-button {
+  justify-content: center;
+  min-width: 36px;
+  padding: 0px;
+  height: 16px;
+  min-width: 1px;
+  width: 20px;
+  background: #fff;
+  color: #9b9a9a;
+  border: 1px solid #ddd;
+  box-shadow: none;
+}
+.bdt-res-rangle-control .components-base-control .components-button span {
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  margin: 0;
+}
+.bdt-res-rangle-control .components-base-control .components-button:hover {
+  background: #0000;
+  color: #000;
+}
+.bdt-res-rangle-control .components-base-control .components-button.is-primary {
+  color: #000;
+  background: #dfdfdf;
+}
+.bdt-res-rangle-control .components-base-control .components-button.is-primary:focus:not(:disabled) {
+  box-shadow: none;
+}
+.bdt-res-rangle-control .components-base-control .components-button.is-primary:active:not(:disabled) {
+  background-color: #ddd;
+  color: #000;
+  border: none;
+}
+.bdt-res-rangle-control .components-base-control .components-button.is-secondary:hover:not(:disabled) {
+  box-shadow: none;
+}
+.bdt-res-rangle-control .res-btn {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=index.css.map*/
